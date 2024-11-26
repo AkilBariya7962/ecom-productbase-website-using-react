@@ -7,6 +7,7 @@ import { add } from '../assets/featured/AddCart';
 import Title from './Title';
 
 const ProductCard = () => {
+
   const dispatch = useDispatch();
   const Products = useSelector((state) => state.product);
 

@@ -6,7 +6,7 @@ export const FatchRegister = createAsyncThunk("auth/login",
     try {
       const response = await axios.post("https://671929a77fc4c5ff8f4cadf8.mockapi.io/api/login", registerData)
       // add dummy api
-      console.log("register2")
+      console.log("register23")
       return response.data
     }
     catch (error) {

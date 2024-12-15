@@ -5,7 +5,7 @@ import axios from "axios";
 export const FetchGcloth = createAsyncThunk(
   'fetchGcloth,sklm',
   async () => {
-    const response = await axios.get('https://fakestoreapi.com/products?sort=desc')
+    const response = await axios.get('https://fakestoreapi.com/products?sort=desc') //add dummy api 
     return response.data;
   }
 )
